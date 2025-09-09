@@ -1,0 +1,83 @@
+import React from "react";
+import background from "../assets/food.png";
+import ph1 from "../assets/ph1.jpeg";
+import ph2 from "../assets/ph2.jpeg";
+import ph3 from "../assets/ph3.jpeg";
+import ph4 from "../assets/ph4.jpeg";
+import ph5 from "../assets/ph5.jpeg";
+import ph6 from "../assets/ph6.jpeg";
+import ph7 from "../assets/ph7.jpeg";
+import ph8 from "../assets/ph8.jpeg";
+import ph9 from "../assets/ph9.jpeg";
+import ph10 from "../assets/ph10.jpeg";
+import ph11 from "../assets/ph11.jpeg";
+import ph12 from "../assets/ph12.jpeg";
+import ph13 from "../assets/ph13.jpeg";
+import ph14 from "../assets/ph14.jpeg";
+import ph15 from "../assets/ph15.jpeg";
+import ph16 from "../assets/ph16.jpeg";
+
+const Falafilgy = () => {
+const sandwiches = [
+    { name: "صحن بطاطا تشيذ", img: ph1 },
+    { name: "صحن بطاطا كبير", img: ph2 },
+    { name: "فلافل صمون مع قشقوان", img: ph3 },
+    { name: "بطاطا مع قشقوان", img: ph4 },
+    { name: "كوردن بلو", img: ph5 },
+    { name: "شيش", img: ph6 },
+    { name: "سوبريم", img: ph7 },
+    { name: "زنجر", img: ph8 },
+    { name: "كريسبي", img: ph9 },
+    { name: "بطاطا كشف", img: ph10 },
+    { name: "بطاطا صمون", img: ph11 },
+    { name: "فلافل صمون", img: ph12 },
+    { name: "فلافل صاج", img: ph13 },
+    { name: "فلافل سياحي", img: ph14 },
+    { name: "وجبات فلفلجي", img: ph15 },
+    { name: "فلافل عربي", img: ph16 },
+  ];
+
+  return (
+    <div dir="rtl" className="font-sans bg-orange-50 min-h-screen">
+      <header className="bg-yellow-500 text-white py-4 shadow-md">
+        <div className="container mx-auto flex justify-between items-center px-4">
+          <h1 className="text-2xl font-bold">فلفلجي</h1>
+          <nav>
+            <ul className="flex space-x-4 space-x-reverse">
+              <li className="hover:text-orange-200 cursor-pointer">مطعم عربي - غربي</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section className="relative h-72 bg-cover bg-center" style={{ backgroundImage: "url('https://via.placeholder.com/1200x400')" }}>
+          <img className="absolute h-72 w-full" src={background} alt=""/>
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center text-white">
+          {/* <h1 className="text-4xl md:text-4xl font-bold mb-2"> فلفلجي</h1> */}
+          <h2 className="text-2xl md:text-3xl font-bold mb-2"> أشهى المأكولات العربية و الغربية</h2>
+          <p className="text-lg">تعرف على قائمة السندويشات لدينا</p>
+        </div>
+      </section>
+
+      <section className="container mx-auto py-10 px-4">
+        <h3 className="md:text-3xl text-2xl font-bold text-center text-yellow-500 mb-8">قائمة السندويشات</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {sandwiches.map((item, idx) => (
+            <div key={idx} className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition">
+              <img src={item.img} alt={item.name} className="w-full h-40 object-cover" />
+              <div className="p-4 text-center">
+                <h4 className="text-xl font-semibold text-gray-800">{item.name}</h4>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <footer className="bg-yellow-500 text-white text-center py-4 mt-10">
+        <p>© 2025 فلفلجي - جميع الحقوق محفوظة</p>
+      </footer>
+    </div>
+  );
+}
+
+export default Falafilgy;
