@@ -1,11 +1,7 @@
 import React from "react";
 import background from "../assets/food.png";
-import ph1 from "../assets/ph1.jpeg";
 import ph2 from "../assets/ph2.jpeg";
 import ph3 from "../assets/ph3.jpeg";
-import ph4 from "../assets/ph4.jpeg";
-import ph5 from "../assets/ph5.jpeg";
-import ph6 from "../assets/ph6.jpeg";
 import ph7 from "../assets/ph7.jpeg";
 import ph8 from "../assets/ph8.jpeg";
 import ph9 from "../assets/ph9.jpeg";
@@ -16,25 +12,32 @@ import ph13 from "../assets/ph13.jpeg";
 import ph14 from "../assets/ph14.jpeg";
 import ph15 from "../assets/ph15.jpeg";
 import ph16 from "../assets/ph16.jpeg";
+import ph23 from "../assets/ph23.jpeg";
+import ph24 from "../assets/ph24.jpeg";
+import ph20 from "../assets/ph20.jpeg";
+import ph17 from "../assets/ph17.jpeg";
+import ph25 from "../assets/ph25.jpeg";
+
 
 const Falafilgy = () => {
 const sandwiches = [
-    { name: "صحن بطاطا تشيذ", img: ph1 },
-    { name: "صحن بطاطا كبير", img: ph2 },
-    { name: "فلافل صمون مع قشقوان", img: ph3 },
-    { name: "بطاطا مع قشقوان", img: ph4 },
-    { name: "كوردن بلو", img: ph5 },
-    { name: "شيش", img: ph6 },
+    { name: "صحن بطاطا تشيذ", img: ph14 },
+    { name: "صحن بطاطا كبير", img: ph15 },
+    { name: "فلافل صمون مع قشوان", img: ph12 },
+    { name: "بطاطا مع قشوان", img: ph10 },
+    { name: "بطاطا مع قشووان", img: ph11 },
+    { name: "كوردن بلو", img: ph13 },
+    { name: "شيش", img: ph8 },
     { name: "سوبريم", img: ph7 },
-    { name: "زنجر", img: ph8 },
-    { name: "كريسبي", img: ph9 },
-    { name: "بطاطا كشف", img: ph10 },
-    { name: "بطاطا صمون", img: ph11 },
-    { name: "فلافل صمون", img: ph12 },
-    { name: "فلافل صاج", img: ph13 },
-    { name: "فلافل سياحي", img: ph14 },
-    { name: "وجبات فلفلجي", img: ph15 },
-    { name: "فلافل عربي", img: ph16 },
+    { name: "زنجر", img: ph9 },
+    { name: "كريسبي", img: ph25 },
+    { name: "بطاطا كشف", img: ph3 },
+    { name: "بطاطا صمون", img: ph20 },
+    { name: "فلافل صمون", img: ph2 },
+    { name: "فلافل صاج", img: ph24 },
+    { name: "فلافل سياحي", img: ph23 },
+    { name: "وجبات فلفلجي", img: ph16 },
+    { name: "فلافل عربي", img: ph17 },
   ];
 
   return (
