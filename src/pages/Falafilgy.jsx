@@ -17,15 +17,17 @@ import ph24 from "../assets/ph24.jpeg";
 import ph20 from "../assets/ph20.jpeg";
 import ph17 from "../assets/ph17.jpeg";
 import ph25 from "../assets/ph25.jpeg";
+import ph26 from "../assets/ph26.jpeg";
+import ph27 from "../assets/ph27.jpeg";
 import logo from "../assets/logo.png";
 
 const Falafilgy = () => {
   const sandwiches = [
-    { name: "صحن بطاطا تشيذ", img: ph14 },
+    { name: "صحن بطاطا تشيز", img: ph14 },
     { name: "صحن بطاطا كبير", img: ph15 },
-    { name: "فلافل صمون مع قشوان", img: ph12 },
-    { name: "بطاطا مع قشوان", img: ph10 },
-    { name: "بطاطا مع قشووان", img: ph11 },
+    { name: "فلافل صمون مع قشقوان", img: ph12 },
+    { name: "بطاطا مع قشقوان", img: ph10 },
+    { name: "بطاطا مع قشقووان", img: ph11 },
     { name: "كوردن بلو", img: ph13 },
     { name: "شيش", img: ph8 },
     { name: "سوبريم", img: ph7 },
@@ -36,6 +38,8 @@ const Falafilgy = () => {
     { name: "فلافل صمون", img: ph2 },
     { name: "فلافل صاج", img: ph24 },
     { name: "فلافل سياحي", img: ph23 },
+    { name: "ميكس فلافل و بطاطا", img: ph26 },
+    { name: "فلافل صمون اكسترا", img: ph27 },
     { name: "وجبات فلفلجي", img: ph16 },
     { name: "فلافل عربي", img: ph17 },
   ];
@@ -103,7 +107,7 @@ const Falafilgy = () => {
           <img className="h-28" src={logo} alt="فلفلجي" />
           <p className="text-lg mt-5"> فرع 1 مهاجرين - سكة</p>
           <p className="text-lg mt-2"> فرع 2 شارع الثورة - دخلة ساروجة</p>
-          <p className="text-lg mt-2"> فرع 3 ضايحة - السوق التجاري</p>
+          <p className="text-lg mt-2"> فرع 3 ضاحية - السوق التجاري</p>
           <p className="text-lg mt-2"> تواصل - 0944454476</p>
         </div>
       </section>
