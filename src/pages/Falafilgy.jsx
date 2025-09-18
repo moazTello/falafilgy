@@ -12,12 +12,12 @@ import ph13 from "../assets/ph13.jpeg";
 import ph14 from "../assets/ph14.jpeg";
 import ph15 from "../assets/ph15.jpeg";
 import ph16 from "../assets/ph16.jpeg";
+import ph17 from "../assets/ph17.jpeg";
+import ph20 from "../assets/ph20.jpeg";
 import ph23 from "../assets/ph23.jpeg";
 import ph24 from "../assets/ph24.jpeg";
-import ph20 from "../assets/ph20.jpeg";
-import ph17 from "../assets/ph17.jpeg";
 import ph25 from "../assets/ph25.jpeg";
-import ph26 from "../assets/ph26.jpeg";
+import ph26 from "../assets/ph26.png";
 import ph27 from "../assets/ph27.jpeg";
 import logo from "../assets/logo.png";
 
@@ -62,9 +62,7 @@ const Falafilgy = () => {
         </div>
       </header>
 
-      <section
-        className="relative h-72 bg-cover bg-center"
-      >
+      <section className="relative h-72 bg-cover bg-center">
         <img className="absolute h-72 w-full" src={background} alt="" />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center text-white">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">
@@ -99,9 +97,7 @@ const Falafilgy = () => {
         </div>
       </section>
 
-      <section
-        className="relative h-80 bg-cover bg-center mt-10"
-      >
+      <section className="relative h-80 bg-cover bg-center mt-10">
         <img className="absolute h-80 w-full" src={background} alt="" />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center text-white">
           <img className="h-28" src={logo} alt="فلفلجي" />
